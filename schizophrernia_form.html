@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="website_magic.css" />
+<html>
+    <head>
+        <title> Schizophrenia</title>
+        <link rel="icon" type="image/x-icon" href="favicon.jpg">
+        <script src="magic.js"></script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <!-- <iframe src="website_magic.html"></iframe> -->
+    </head>
+    <body>
+        <div id="nav-placeholder">
+
+        </div>
+        
+        <!-- <script>
+        $(function(){
+          $("#nav-placeholder").load("./website_magic.html");
+        });
+        </script> -->
+        <h2>Schizophrenia</h2>    
+        <p> 
+            Schizophrenia is broken up into three main stages known as prodomal, active and risidual.
+            <br>
+            Please fill out the questionare bellow to help asses which stage you are most likely at.
+        </p>
+        <form method="get" id="schizoForm" action="./getFormResult.php">
+            <!-- action="./getFormResult.php"> -->
+            <!-- action="./schizo_results_page.html" -->
+            <label for="fname">First name: <input type="text" name="fname" id="fname"></label>
+            <!-- required onblur="getValue(this)" -->
+            <br>
+            <br>
+            <label for="lname">Last name: <input type="text" name="lname" id="lname"></label>
+             <!-- onblur="getValue(this)" -->
+            <br>
+            <br>
+            <br>
+            <label for="age">Age: <input type="number" name="age" id="age"></label>
+            <!-- onblur="getValue(this)" -->
+            <br>
+            <br>
+            <!-- <p>Gender:</p>
+            <input type="radio" id="gender_m">
+            <label for="gender_m">Male</label>
+            <br>
+            <input type="radio" id="gender_f">
+            <label for="gender_f">Female</label>
+            <p>Do you have any family history of Schizophrenia?</p>
+            <input type="radio" id="family_history_yes">
+            <label for="family_history_yes" id="family_yes">Yes</label>
+            <br>
+            <input type="radio" id="family_history_no">
+            <label for="family_history_no">No</label>
+            <br>
+            <p>Do you/ have you suffered from any substance abuse in the past?</p>
+            <input type="checkbox" id="substance1">
+            <label for="substance1">No</label>
+            <br>
+            <input type="checkbox" id="substance2">
+            <label for="substance2">Yes</label>
+            <br>
+            <input type="checkbox" id="substance3">
+            <label for="substance3">Yes and used:Cannabis, Cocaine, LSD or Amphetamines</label>
+            <br>
+            <p> Have you suffered trauma/ had a high stress life?</p>
+            <input type="radio" id="lifestyle_no">
+            <label for="lifestyle_no">No</label>
+            <br>
+            <input type="radio" id="lifestyle_yes">
+            <label for="lifestyle_yes">Yes</label>
+            <br>
+            <p> Were there any pregnancy/ birth complications with you?</p>
+            <input type="checkbox" id="birth1">
+            <label for="birth1">No</label>
+            <br>
+            <input type="checkbox" id="birth2">
+            <label for="birth2">Low birth weight(more than slight)</label>
+            <br>
+            <input type="checkbox" id="birth3">
+            <label for="birth3">Premature labor</label>
+            <br>
+            <input type="checkbox" id="birth4">
+            <label for="birth4">A lack of oxygen (asphyxia) during birth</label>
+            <br>
+            <label for="birth_other"></label>
+            <label>
+                <input type="checkbox" id="other" name="interest" value="other"/>
+                Other
+            </label>
+            <input type="text" id="otherValue" name="other"/>
+
+            <p>There are three stages in Schizophrenia known as prodromal, active, and residual.
+                select any sytmtoms experienced to help asses which stage you are currently in.</p>
+            <input type="checkbox" id="s_symptom1">
+            <label for="otherValue">Social isolation</label>
+            <br>
+            <input type="checkbox" id="s_symptom2">
+            <label for="otherValue">Mild or poorly formed Hallucinations</label>
+            <br>
+            <input type="checkbox" id="s_symptom3">
+            <label for="otherValue">Neglecting personal hygiene</label>
+            <br>
+            <input type="checkbox" id="s_symptom4">
+            <label for="otherValue">Anxiety</label>
+            <br>
+            <input type="checkbox" id="s_symptom5">
+            <label for="otherValue">Sleep problems</label>
+            <br>
+            <input type="checkbox" id="s_symptom6">
+            <label for="otherValue">Difficulty concentrating</label>
+            <br>
+            <input type="checkbox" id="s_symptom7">
+            <label for="otherValue">Hallucinations (false senses such as hearing, seeing, smelling, feeling)</label>
+            <br>
+            <input type="checkbox" id="s_symptom8">
+            <label for="otherValue">Delusions</label>
+            <br>
+            <input type="checkbox" id="s_symptom9">
+            <label for="otherValue">Confusion and disorganized thoughts</label>
+            
+            <br> -->
+
+
+            <!-- <button type="submit">Validate the payment</button> -->
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
+
+    
