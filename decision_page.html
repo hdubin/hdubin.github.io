@@ -1,1 +1,24 @@
-<p>This is the page</p>
+<!DOCTYPE html>
+<link rel="stylesheet" type="text/css" href="website_magic.css" />
+<html>
+    <head>
+        <title> Schizophrenia</title>
+        <link rel="icon" type="image/x-icon" href="favicon.jpg">
+        <script src="magic.js"></script>
+        <!-- <script src="https://code.jquery.com/jquery-1.10.2.js"></script> -->
+        <!-- <iframe src="website_magic.html"></iframe> -->
+    </head>
+    <body>
+
+        
+        <p>This is the page 2</p>
+        <?php
+        // The global $_POST variable allows you to access the data sent with the POST method by name
+        // To access the data sent with the GET method, you can use $_GET
+        $say = htmlspecialchars($_GET['fname']);
+        $to  = htmlspecialchars($_GET['lname']);
+        
+        echo  $say, ' ', $to;
+        ?>
+    </body>
+</html>

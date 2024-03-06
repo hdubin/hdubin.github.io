@@ -1,7 +1,6 @@
-<!DOCTYPE html>
-<html>
-<body>
+
 
 <?php echo $_POST['fname']; ?>
-</body>
-</html>
+<?php echo $_POST['lname']; ?>
+<?php echo $_GET['fname']; ?>
+<?php echo $_GET['lname']; ?>
