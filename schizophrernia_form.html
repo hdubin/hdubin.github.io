@@ -24,7 +24,7 @@
             <br>
             Please fill out the questionare bellow to help asses which stage you are most likely at.
         </p>
-        <form method="GET" id="schizoForm" action="./schizo_results_page.html">
+        <form method="GET" id="schizoForm" action="./getFormResult.php">
             <!-- action="./getFormResult.php"> -->
             <!-- action="./schizo_results_page.html" -->
             <label for="fname">get First name: <input type="text" name="fname" id="fname"></label>
@@ -123,8 +123,15 @@
 
 
             <!-- <button type="submit">Validate the payment</button> -->
-            <input type="submit" value="Submit">
+            <input type="submit" value="Submit" name="submit">
         </form>
+        <!-- <script>
+            const formEl = document.querySelector('.form');
+            
+            formEl.addEventListener('submit', () => {
+
+            });
+        </script> -->
     </body>
 </html>
 

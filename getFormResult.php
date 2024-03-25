@@ -1,5 +1,14 @@
-Allow: GET, HEAD, PUT
-<?php echo $_POST['fname']; ?>
-<?php echo $_POST['lname']; ?>
-<?php echo $_GET['fname']; ?>
-<?php echo $_GET['lname']; ?>
+
+<html>
+    <body>
+        <!-- <p>S Results Page</p> -->
+        First name post: <?php echo $_POST['fname']; ?>
+        <br>
+        Last name post: <?php echo $_POST['lname']; ?>
+        <br>
+        First name get: <?php echo $_GET['fname']; ?>
+        <br>
+        Last name get: <?php echo $_GET['lname']; ?>
+        <br>
+    </body>
+</html>
